@@ -4,8 +4,8 @@ Power_State()
 {
     echo "$(date) : $0 Power State Service Start Working" >> Application.logs
     while :; do
-        select choice in  "Shutdown" "Reboot" "Back"; do
-                case $choice in 
+        select option in  "Shutdown" "Reboot" "Back"; do
+                case $option in 
                 "Shutdown")
                 echo "$(date) : $0 Admin preform a System Shutdown" >> Application.logs.txt
                 shutdown now 
