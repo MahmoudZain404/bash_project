@@ -1,0 +1,4 @@
+Mon Aug 12 05:40:15 PM EEST 2024 : ./App_Start.sh User Mode Start Running
+Mon Aug 12 05:40:19 PM EEST 2024 : ./App_Start.sh User Mode Proccess Ended
+Mon Aug 12 05:40:25 PM EEST 2024 : ./App_Start.sh Admin Mode Start Running
+Mon Aug 12 05:40:31 PM EEST 2024 : System_Power_State.sh Power State Service Start Working
