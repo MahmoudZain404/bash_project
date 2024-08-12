@@ -3,7 +3,7 @@
 Power_State()
 {
     echo "$(date) : $0 Power State Service Start Working" >> Application.logs
-    while [ true ] ; 
+    while :; 
     do
 
         select choice in  "Shutdown" "Reboot" "Back"
